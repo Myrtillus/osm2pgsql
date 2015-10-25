@@ -146,7 +146,7 @@ node,way   z_order      int4         linear # This is calculated during import
 way        way_area     real                # This is calculated during import
 node,way   mtb:scale    text         linear
 node,way   mtb:winter   text         linear
-
+node       noexit       text         linear
 
 # Deleted tags
 # These are tags that are generally regarded as useless for most rendering.
@@ -163,7 +163,8 @@ node,way    source_ref              text    delete
 node,way    source:*                text    delete
 node,way    attribution             text    delete
 node,way    comment                 text    delete
-node,way    fixme                   text    delete
+#node,way    fixme                   text    delete
+node,way    fixme                   text    linear
 
 # Tags generally dropped by editors, not otherwise covered
 node,way    created_by              text    delete
