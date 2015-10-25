@@ -146,7 +146,7 @@ node,way   z_order      int4         linear # This is calculated during import
 way        way_area     real                # This is calculated during import
 node,way   mtb:scale    text         linear
 node,way   mtb:winter   text         linear
-node       noexit       text         linear
+node,way   noexit       text         linear  # Trying to indicate dead end paths
 
 # Deleted tags
 # These are tags that are generally regarded as useless for most rendering.
